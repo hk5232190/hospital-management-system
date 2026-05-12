@@ -72,11 +72,18 @@ body{
 
 <label class="mb-2">Specialization</label>
 
-<input type="text"
-       name="specialization"
-       class="form-control mb-3"
-       placeholder="Enter Specialization"
-       required>
+<select name="specialization" class="form-control mb-3" required>
+    <option value="">Select Specialization</option>
+    <option value="Cardiologist">Cardiologist (Heart)</option>
+    <option value="Neurologist">Neurologist (Brain)</option>
+    <option value="ENT Specialist">ENT Specialist</option>
+    <option value="Dermatologist">Dermatologist (Skin)</option>
+    <option value="Orthopedic">Orthopedic (Bones)</option>
+    <option value="Pediatrician">Pediatrician (Children)</option>
+    <option value="Gynecologist">Gynecologist</option>
+    <option value="Liver Specialist">Liver Specialist</option>
+    <option value="General Physician">General Physician</option>
+</select>
 
 <label class="mb-2">Phone</label>
 
